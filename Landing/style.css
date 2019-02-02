@@ -1,0 +1,88 @@
+/* Fonts and colors*/
+body {
+	background: rgb(250,250,250);
+	color: rgb(40,40,40);
+	font-family: 'Pacifico', cursive; 
+	margin: 0px;
+}
+
+h1 {
+	font-family: 'Pacifico', cursive;
+	font-size: 45px;
+	color: #ff7657
+	text-align: center;
+}
+
+h2 {
+	font-size: 20px;
+	color: #665c84;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: none;
+	color: purple;
+}
+
+/*Custom sections*/
+#banner	{
+	text-align: center;
+	padding: 150px 0px;
+	background-image: url("https://unsplash.it/1300/600?random");
+	background-size: cover;
+}
+
+#banner a {
+	font-size: 25px;
+}
+
+#banner h1 {
+	color: white;
+	font-size: 50px;
+	text-shadow: 0.3px 0.3px 0.3px black;
+}
+
+#banner p {
+	color: white;
+	font-size: 30px;
+	font-weight: lighter;
+	/*opacity: 0.8;*/
+}
+
+#footer {
+	padding: 50px 0px;
+	background: rgb(30, 30, 30);
+	color: lightgrey;
+	text-align: center;
+}
+
+#footer p {
+	text-align: center;
+}
+
+#footer a {
+  color: lightgrey;
+  font-size: 30px;
+}
+
+#footer a:hover {
+  color: pink;
+}
+
+.section {
+	text-align: center;
+	padding: 30px;
+	font-weight: lighter;
+
+}
+
+/* get profile pic from Github: https://api.github.com/users/liligergely'*/
+
+#myface {
+	border-radius: 150px;
+	padding: 30px;
+
+}
